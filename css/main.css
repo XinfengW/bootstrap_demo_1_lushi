@@ -1,0 +1,201 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+    background: #eeddb6;
+}
+.mai-icon{
+    background: rgb(64, 210, 177);
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+/*nav*/
+.navbar-default{
+    background-color: #81270f;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color:#fede4c;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fede4c;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle{
+    margin-top: 17px;
+    border: #2e1702;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #70250f;
+    background-color: #70250f;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2e1702;
+}
+/*home*/
+#home{
+    margin-top: 70px;
+    background: url("../images/home_bg.jpg");
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 90px 0;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
+/*bbs*/
+#bbs{
+    padding: 80px 0;
+    text-align: center;
+}
+#bbs .col-md-4{
+    padding: 15px;
+}
+#bbs .col-md-4:hover{
+    background: #c0812a;;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#bbs a{
+    color: #212121;
+    text-decoration: none;
+}
+#bbs img{
+    margin: 0 auto;
+    border-radius: 20%;
+}
+#bbs h3{
+    font-weight: bold;
+}
+
+/*package + risk*/
+#package , #risk{
+    padding: 40px 0;
+}
+#package h2 , #risk h2{
+    font-weight: bold;
+}
+#package p  , #risk p{
+    line-height: 25px;
+}
+
+/*deck*/
+#deck{
+    padding: 80px 0;
+    text-align: center;
+}
+#deck .sm-img{
+    height: 124px;
+    margin: 0 auto;
+}
+#deck h2{
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+#deck .col-md-3{
+    margin-bottom: 20px;
+}
+#deck .btn{
+    background: transparent;
+    border: 1px solid #7f3f02;
+    border-radius: 5%;
+    color: #7f3f02;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#deck .btn:hover{
+    background: #7f3f02;
+    color: #fff;
+}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(88, 54, 38);
+    border-color: rgb(88, 54, 38);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: #7f3f02;
+}
+
+/*contact*/
+#contact{
+    background: url("../images/fbg.png") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+    background: #140e1e;
+    color: #ffffff
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background:rgb(88, 54, 38);
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background:#7f3f02;
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
